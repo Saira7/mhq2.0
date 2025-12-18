@@ -9,8 +9,8 @@ const Navbar = () => {
   const linkClasses = ({ isActive }) =>
     `font-medium px-2 py-1 border-b-2 ${
       isActive
-        ? "border-blue-900 text-blue-900"
-        : "border-transparent text-blue-900 hover:border-blue-500 hover:text-blue-700 transition-colors duration-200"
+        ? "border-blue-900 text-white"
+        : "border-transparent text-white hover:border-blue-500 hover:text-blue-700 transition-colors duration-200"
     }`;
 
   // Scroll to top function
